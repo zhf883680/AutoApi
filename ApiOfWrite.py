@@ -279,7 +279,7 @@ for a in range(0, app_count):
     print('账号 '+str(a+1))
     print('发送邮件 ( 邮箱单独运行，每次运行只发送一次，防止封号 )')
     if other_config['email'][0] != '':
-	print("由于右键发送功能有误,故不发送邮件")
+        print("尚未配置邮箱111")
     else:
         print("尚未配置邮箱")
 print('')
